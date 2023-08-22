@@ -4,13 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Weather</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    
-    <script src="js/main.min.js"></script>
+<main class="main">
+    <section class="weather">
+        <div class="weather__inner">
+            <div class="weather-content">
+                <h1 class="weather-content__title">Weather App</h1>
+                <div class="notification">text...</div>
+                <div class="search-wrapper">
+                    <input class="inp-search" type="search">
+                    <button type="button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="39" viewBox="0 0 41 39" fill="none">
+                            <rect width="41" height="39" fill="#004346"/>
+                            <path d="M28.7824 24.833L25.6666 21.7177C25.5259 21.5771 25.3353 21.499 25.1353 21.499H24.6259C25.4884 20.396 26.001 19.0086 26.001 17.4994C26.001 13.9091 23.0914 11 19.5005 11C15.9096 11 13 13.9091 13 17.4994C13 21.0896 15.9096 23.9987 19.5005 23.9987C21.01 23.9987 22.3976 23.4863 23.5008 22.6239V23.1332C23.5008 23.3332 23.5789 23.5238 23.7195 23.6644L26.8354 26.7797C27.1292 27.0734 27.6042 27.0734 27.8948 26.7797L28.7793 25.8954C29.0731 25.6017 29.0731 25.1267 28.7824 24.833ZM19.5005 21.499C17.2909 21.499 15.5002 19.7116 15.5002 17.4994C15.5002 15.2902 17.2878 13.4998 19.5005 13.4998C21.71 13.4998 23.5008 15.2871 23.5008 17.4994C23.5008 19.7085 21.7131 21.499 19.5005 21.499Z" fill="#EAEAEA"/>
+                        </svg>
+                    </button>
+                </div>
+                <span class="decor">or</span>
+                <button class="btn-location">Use device location</button>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="js/main.min.js"></script>
 </body>
 
 </html>

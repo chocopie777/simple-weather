@@ -2,4 +2,36 @@
 @import "../css/reset";
 @import "../scss/fonts";
 
+.weather-content {
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 493px;
+  width: 100%;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 20px 30px 0px rgba(80, 137, 145, 0.10);
+}
+
+.main {
+  height: 100vh;
+  position: relative;
+}
+
+.weather-content__title {
+  color: #004346;
+  text-align: center;
+  font-family: Blinker-SemiBold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 25px;
+  margin-bottom: 54px;
+}
+
 @import "../scss/media_queries";
