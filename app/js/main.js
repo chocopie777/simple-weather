@@ -5,3 +5,4 @@ btnSearch.addEventListener('click', () => {
     const value = inpSearch.value;
     inpSearch.value = '';
 });
+//
