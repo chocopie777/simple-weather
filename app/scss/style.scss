@@ -88,13 +88,16 @@
   padding-top: 12.5px;
   padding-bottom: 11.5px;
   margin-bottom: 10px;
+  display: none;
 
   &.loading {
     background: #D3DEDE;
+    display: block;
   }
 
   &.error {
     background: #F4E7E1;
+    display: block;
   }
 
   span {
@@ -236,12 +239,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.wrapper-img {
-  max-width: 165px;
-  max-height: 165px;
-  margin-bottom: 14px;
 }
 
 .weather-card__weather-text {
