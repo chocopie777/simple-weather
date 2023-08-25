@@ -11,8 +11,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 493px;
-  max-height: 308px;
-  height: 100%;
+  min-height: 308px;
   width: 100%;
   border-radius: 12px;
   background: #FFF;
@@ -344,6 +343,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.weather__inner {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 25%;
 }
 
 @import "../scss/media_queries";
